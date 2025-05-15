@@ -1,9 +1,17 @@
 #include <iostream>
+#include "input.cpp"
+#include "math.cpp"
 
-int main() {
-   std::cout << "Hello B!" << std::endl;
-   // return 0;
-   _sleep(5000); // Sleep for 5 seconds
-   std::cout << "Hello C!" << std::endl;
+using namespace std;
+
+int main()
+{
+   Input();
+
+   int Result = divide(10, 5);
+   cout << endl
+        << endl
+        << "Math Result: " << Result << endl;
+
    return 0;
 }
