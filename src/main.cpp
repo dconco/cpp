@@ -8,7 +8,7 @@ int main()
    Input();
    Random();
 
-   int Result{multiply(3, 5)};
+   int Result{Math::multiply(3, 5)};
    std::cout << std::endl
              << std::endl
              << "Math Result: " << Result << std::endl;

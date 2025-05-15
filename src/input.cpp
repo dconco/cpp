@@ -1,12 +1,14 @@
 #include <iostream>
+#include "types/generic.hxx"
 
 int Input()
 {
-   std::cout << "What is your Name?" << std::endl;
+   std::cout << "What is your Name? ";
 
-   std::string NameValue;
-   std::cin >> NameValue;
+   text_t nameValue;
+   std::cin >> nameValue;
 
-   std::cout << "Hello " << NameValue << '!';
+   std::cout << std::endl
+             << "Hello " << nameValue << '!' << std::endl;
    return 0;
 }

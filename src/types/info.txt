@@ -6,3 +6,11 @@
 using namespace std; // can then be able to call `std:cout` as `cout`
 
 `nullptr` keyword // null pointer (0)
+
+#include <random>
+
+std::random_device rd;
+std::mt19937 mt(rd());
+std::uniform_int_distribution<int> dist(1000000, 9999999);
+int randomNum = dist(mt);
+std::cout << "Random Number: " << randomNum << std::endl;
