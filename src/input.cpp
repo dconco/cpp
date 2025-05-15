@@ -1,14 +1,12 @@
 #include <iostream>
 
-using namespace std;
-
 int Input()
 {
-   cout << "What is your Name?" << endl;
+   std::cout << "What is your Name?" << std::endl;
 
-   string NameValue;
-   cin >> NameValue;
+   std::string NameValue;
+   std::cin >> NameValue;
 
-   cout << "Hello " << NameValue;
+   std::cout << "Hello " << NameValue << '!';
    return 0;
 }

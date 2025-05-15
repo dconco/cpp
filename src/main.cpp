@@ -1,17 +1,17 @@
 #include <iostream>
 #include "input.cpp"
 #include "math.cpp"
-
-using namespace std;
+#include "random.cpp"
 
 int main()
 {
    Input();
+   Random();
 
-   int Result = divide(10, 5);
-   cout << endl
-        << endl
-        << "Math Result: " << Result << endl;
+   int Result{multiply(3, 5)};
+   std::cout << std::endl
+             << std::endl
+             << "Math Result: " << Result << std::endl;
 
    return 0;
 }

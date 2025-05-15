@@ -1,0 +1,8 @@
+#include <iostream> // Input/Output Stream eg., std
+#include <cstdlib>  // C Standard Library functions eg., srand()
+#include <cmath>    // C Math functions
+#include <ctime>    // C Time functions
+
+using namespace std; // can then be able to call `std:cout` as `cout`
+
+`nullptr` keyword // null pointer (0)
