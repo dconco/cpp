@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <random>
 #include <ctime>
+#include "header.hxx"
 
 int Random()
 {

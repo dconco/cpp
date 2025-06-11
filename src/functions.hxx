@@ -1,5 +1,6 @@
 #include <iostream>
 #include "math.cpp"
+#include "header.hxx"
 
 int Func()
 {
